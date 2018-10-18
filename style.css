@@ -1,0 +1,57 @@
+
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.card {
+	 margin: 16px;
+
+}
+.card-title {
+	font-weight: 600 !important;
+}
+.img-card1, .img-card2, .img-card3 {
+	background-image: url('images/img.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	width: 100%
+}
+
+.img-card2 {
+
+	background-image: url('images/img1.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	width: 100%
+}
+.img-card3 {
+
+	background-image: url('images/img2.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+    width: 100%
+}
+
+.buy-button >.waves-effect {
+	margin: 16px;
+	height: 60px;
+	width: 100px;
+	padding-top: 14px;
+} 
+.carousel-item{
+	height: 100px;
+	width: 100px;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	margin: 16px
+}
